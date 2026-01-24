@@ -31,9 +31,9 @@
     <div class="container-fluid px-0">
         <div class="swiper hero-swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/4.png');"></div>
-                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/6.png');"></div>
-                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/5.png');"></div>
+                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/4.jpeg');"></div>
+                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/6.jpeg');"></div>
+                <div class="swiper-slide d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('Images/Carousel/5.jpeg');"></div>
             </div>
 
             <div class="hero-text position-absolute top-50 start-50 translate-middle text-center text-white">
@@ -54,7 +54,7 @@
                 <p>With decades of experience in the hospitality industry, our team is committed to excellence at every level. From luxurious accommodations to attentive service, we strive to exceed expectations and ensure that each visit is as remarkable as it is relaxing.”</p>
             </div>
             <div class="col-lg-5 col-md-5 mb-4 order-1 order-lg-2 order-md-1">
-                <img src="Images/About/about.jpg" class="w-100">
+                <img src="Images/About/7.jpeg" class="w-100">
             </div>
         </div>
     </div>
@@ -63,25 +63,25 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="Images/About/hotel.svg" width="70px">
+                    <img src="Images/About/9.jpeg" width="70px">
                     <h4 class="mt-3">100+ Rooms</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="Images/About/customers.svg" width="70px">
+                    <img src="Images/About/8.jpeg" width="70px">
                     <h4 class="mt-3">200+ Customers</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="Images/About/rating.svg" width="70px">
+                    <img src="Images/About/10.jpeg" width="70px">
                     <h4 class="mt-3">150+ Reviews</h4>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
-                    <img src="Images/About/staff.svg" width="70px">
+                    <img src="Images/About/11.jpeg" width="70px">
                     <h4 class="mt-3">100+ Staffs</h4>
                 </div>
             </div>
@@ -95,23 +95,23 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper mb-5">
                 <div class="swiper-slide bg-white rounded text-center">
-                    <img src="Images/About/1.png" class="w-100">
+                    <img src="Images/About/1.jpeg" class="w-100">
                     <h6 class="mt-3">Mr. John Smith - General Manager</h6>
                 </div>
                 <div class="swiper-slide bg-white rounded text-center">
-                    <img src="Images/About/5.png" class="w-100">
+                    <img src="Images/About/2.jpeg" class="w-100">
                     <h6 class="mt-3">Ms. Isabella Mary - Front Office Manager</h6>
                 </div>
                 <div class="swiper-slide bg-white rounded text-center">
-                    <img src="Images/About/3.png" class="w-100">
+                    <img src="Images/About/3.jpeg" class="w-100">
                     <h6 class="mt-3">Mr. David Chen - Food & Beverage Manager</h6>
                 </div>
                 <div class="swiper-slide bg-white rounded text-center">
-                    <img src="Images/About/4.png" class="w-100">
+                    <img src="Images/About/2.jpeg" class="w-100">
                     <h6 class="mt-4">Mr. Emma Williams - Housekeeping Manager</h6>
                 </div>
                 <div class="swiper-slide bg-white rounded text-center">
-                    <img src="Images/About/1.png" class="w-100">
+                    <img src="Images/About/1.jpeg" class="w-100">
                     <h6 class="mt-3">Mr. Alex Johnson - Operation Manager</h6>
                 </div>
             </div>
