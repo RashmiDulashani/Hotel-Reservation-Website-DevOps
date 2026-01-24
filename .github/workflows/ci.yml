@@ -1,11 +1,9 @@
-name: PHP Multi-Branch CI
+name: CI Pipeline
 
 on:
   push:
-    # This tells GitHub to run the CI on EVERY branch push
     branches: [ "**" ] 
   pull_request:
-    # Runs whenever a Pull Request is opened to these target branches
     branches: [ "main", "develop" ]
 
 jobs:
@@ -20,7 +18,7 @@ jobs:
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'
-        extensions: mysqli, pdo_mysql # Common extensions for hotel projects
+        extensions: mysqli, pdo_mysql
 
     - name: Check PHP Syntax (Linting)
       run: |

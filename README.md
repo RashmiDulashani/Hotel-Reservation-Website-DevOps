@@ -1,7 +1,6 @@
-# 🏨 Hotel Reservation Website – DevOps Project
+# 🏨 Hotel Reservation Website
 
 ![CI](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/deploy.yml/badge.svg)
 
 ## 📝 Project Description
 
@@ -11,18 +10,13 @@ The project emphasizes:
 
 - Professional Git workflows 
 
-- CI/CD automation using GitHub Actions
-
-- Cloud deployment
+- CI automation using GitHub Actions
 
 - Team collaboration using feature branches and pull requests
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ## 👥 Group Information
 
@@ -32,11 +26,15 @@ The project emphasizes:
 | H.M. Imashi Dilshani  | ITBIN-2313-0025 | Backend Developer  |
 | G. Rashmi Dulashani   | ITBIN-2313-0031 | DevOps Engineer    |
 
+## 🚀 Live Deployment
+**⚠️ Note:** Due to the use of PHP and MySQL, deploying the full backend on platforms like Vercel or Netlify is not supported. Deployment on Render was attempted but presented significant challenges.
+As a result, Continuous Deployment (CD) is currently not implemented, but we plan to address this in future development.
+
 ## 🛠 Technologies Used
 - **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
 - **Backend:** PHP, MYSQL
 - **Version Control & CI/CD:** Git, GitHub, GitHub Actions
-- **Deployment:** XAMPP / Localhost
+- **Deployment:** Render (Still Attempting)
 
 ## ✨ Features
 - **User Registration & Login:** Secure authentication with MySQL database.
@@ -53,7 +51,7 @@ We implemented the following branching strategy to manage our collaboration:
 
 | Name                  | Responsibilities | 
 |:---------------------:|:---------------|
-| G. Rashmi Dulashani | - Repository setup and management <br> - GitHub Actions CI/CD pipeline implementation <br> - Deployment configuration <br> - Branch protection and workflow management |
+| G. Rashmi Dulashani | - Repository setup and management <br> - GitHub Actions CI pipeline implementation <br> - Branch protection and workflow management |
 | T.H. Imalsha Dilshani | - Responsive UI development using HTML, CSS, JavaScript, Bootstrap <br> - Implemented dynamic forms and room display pages |
 | H.M. Imashi Dilshani | - PHP backend development <br> - MySQL database design and integration |
 
@@ -85,15 +83,24 @@ git clone https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps
 http://localhost/Hotel-Reservation-Website-DevOps/src
 ```
 
-## ⚙️ Deployment Process
-Our automated pipeline ensures code quality and reliable delivery:
-- **Continuous Integration:** On every push to feature/*, GitHub Actions runs the CI pipeline (Linting, Building, Testing).
-- **Continuous Deployment:** When code is merged into main, it triggers the deployment workflow, pushing the latest version to production.
+## ⚙️ Deployment & CI/CD Challenges
+
+- Due to PHP and MySQL backend, deploying on static hosts like Vercel/Netlify is not supported.
+
+- Deployment on Render faced configuration challenges.
+
+- Therefore, Continuous Deployment (CD) could not be implemented at this stage.
+
+- Future development will focus on:
+                 - Configuring a PHP + MySQL compatible cloud host
+                 - Automating deployments using CI/CD pipelines
 
 ## 📝 Future Enhancements
 
+- Full CD pipeline with automatic deployments
 - Admin dashboard for managing users and rooms
 - Online payment integration
 - Email notifications for booking confirmation
 - Analytics dashboard for admin
 - Multi-language support
+
