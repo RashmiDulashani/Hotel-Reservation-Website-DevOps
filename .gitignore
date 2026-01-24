@@ -1,0 +1,20 @@
+# Database & Environment Secrets
+.env
+config.php
+connection.php
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+node_modules/
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Logs
+error_log
+*.log
