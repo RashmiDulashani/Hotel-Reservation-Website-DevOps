@@ -1,0 +1,28 @@
+name: PHP Multi-Branch CI
+
+on:
+  push:
+    # This tells GitHub to run the CI on EVERY branch push
+    branches: [ "**" ] 
+  pull_request:
+    # Runs whenever a Pull Request is opened to these target branches
+    branches: [ "main", "develop" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup PHP Environment
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+        extensions: mysqli, pdo_mysql # Common extensions for hotel projects
+
+    - name: Check PHP Syntax (Linting)
+      run: |
+        # Checks every PHP file in your src directory for errors
+        find ./src -name "*.php" -exec php -l {} \;
