@@ -1,10 +1,30 @@
-# 🕒 Queue-Management-Website
+# 🏨 Hotel Reservation Website – DevOps Project
 
-![CI](https://github.com/RashmiDulashani/Queue-Management-System-DevOps/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/RashmiDulashani/Queue-Management-System-DevOps/actions/workflows/deploy.yml/badge.svg)
+![CI](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/ci.yml/badge.svg)
+![Deploy](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/deploy.yml/badge.svg)
+
+## 📝 Project Description
+
+This project is a Hotel Reservation Website developed using PHP and MySQL, following real-world DevOps practices.
+
+The project emphasizes:
+
+- Professional Git workflows 
+
+- CI/CD automation using GitHub Actions
+
+- Cloud deployment
+
+- Team collaboration using feature branches and pull requests
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-## 👥 Team Members
+## 👥 Group Information
 
 | Name                  | ID              | Role               |
 |:---------------------:|:---------------:|:------------------:|
@@ -12,26 +32,15 @@
 | H.M. Imashi Dilshani  | ITBIN-2313-0025 | Backend Developer  |
 | G. Rashmi Dulashani   | ITBIN-2313-0031 | DevOps Engineer    |
 
-## 📝 Project Description
-
-Q-Master is a real-time queue management application built with Next.js. It allows service providers to manage customer flow digitally. Users can join a virtual queue and view their status, while admins can manage the active list and "call" the next person in line.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-
-## 🚀 Live Deployment
-**Live URL:** https://queue-management-system-dev-ops.vercel.app/
-
 ## 🛠 Technologies Used
-- **Core:** Next JS
-- **CI/CD:** GitHub Actions
-- **Deployment:** Vercel
+- **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
+- **Backend:** PHP, MYSQL
+- **Version Control & CI/CD:** Git, GitHub, GitHub Actions
+- **Deployment:** XAMPP / Localhost
 
 ## ✨ Features
-- **Real-time Queue Status:** Live updates of current position and waiting list.
-- **Admin Dashboard:** Capability to add, remove, and mark users as "served".
+- **User Registration & Login:** Secure authentication with MySQL database.
+- **View Rooms:** Users can view available rooms.
 - **Responsive UI:** Optimized for all device screens.
 
 ## 🌲 Branch Strategy
@@ -44,31 +53,47 @@ We implemented the following branching strategy to manage our collaboration:
 
 | Name                  | Responsibilities | 
 |:---------------------:|:---------------|
-| G. Rashmi Dulashani | - Repository setup and branch protection rules <br> - GitHub Actions CI/CD pipeline implementation <br> - Deployment setup & management |
-| H.M. Imashi Dilshani | - Created the responsive UI/UX using Next.js components and CSS Modules. |
+| G. Rashmi Dulashani | - Repository setup and management <br> - GitHub Actions CI/CD pipeline implementation <br> - Deployment configuration <br> - Branch protection and workflow management |
+| T.H. Imalsha Dilshani | - Responsive UI development using HTML, CSS, JavaScript, Bootstrap <br> - Implemented dynamic forms and room display pages |
+| H.M. Imashi Dilshani | - PHP backend development <br> - MySQL database design and integration |
 
-## 🔧 Setup Instructions
+
+## ⚡ Getting Started
 
 ### Prerequisites
-- Node.js (Version 22)
+- XAMPP or any PHP/MySQL server
 - Git
+- Web Browser
 
-### Installation
+### Setup Instructions
+
+#### 1. Clone the Repositary:
 ```bash
-# Clone the Repository
-git clone https://github.com/RashmiDulashani/Queue-Management-System-DevOps
+git clone https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps
+```
+#### 2. Import Database
+- Open phpMyAdmin
+- Import database.sql
 
-# Navigate to Project Directory
-cd Queue-Management-System-DevOps
+#### 3. Configure Database Connection:
+- Update src/admin/inc/db_config.php with your MySQL credentials
 
-# Install Dependencies
-npm install
-
-# Run Development Server
-npm run dev
+#### Start Server
+- Open XAMPP → Start Apache & MySQL
+- Navigate to 
+```bash
+http://localhost/Hotel-Reservation-Website-DevOps/src
 ```
 
 ## ⚙️ Deployment Process
 Our automated pipeline ensures code quality and reliable delivery:
 - **Continuous Integration:** On every push to feature/*, GitHub Actions runs the CI pipeline (Linting, Building, Testing).
-- **Continuous Deployment:** When code is merged into main, it triggers the Vercel deployment workflow, pushing the latest version to production.
+- **Continuous Deployment:** When code is merged into main, it triggers the deployment workflow, pushing the latest version to production.
+
+## 📝 Future Enhancements
+
+- Admin dashboard for managing users and rooms
+- Online payment integration
+- Email notifications for booking confirmation
+- Analytics dashboard for admin
+- Multi-language support
