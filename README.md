@@ -92,8 +92,8 @@ http://localhost/Hotel-Reservation-Website-DevOps/src
 - Therefore, Continuous Deployment (CD) could not be implemented at this stage.
 
 - Future development will focus on:
-                 - Configuring a PHP + MySQL compatible cloud host
-                 - Automating deployments using CI/CD pipelines
+    - Configuring a PHP + MySQL compatible cloud host
+    - Automating deployments using CI/CD pipelines
 
 ## 📝 Future Enhancements
 
