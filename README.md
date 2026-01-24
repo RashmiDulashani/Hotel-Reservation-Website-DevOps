@@ -6,6 +6,10 @@
 
 This project is a Hotel Reservation Website developed using PHP and MySQL, following real-world DevOps practices.
 
+<div align="center">
+  <img src="src/Images/Readme.png" height="50%" width="50%">
+</div>
+
 The project emphasizes:
 
 - Professional Git workflows 
