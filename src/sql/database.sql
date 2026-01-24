@@ -26,7 +26,7 @@ CREATE TABLE `user_cred` (
   `dob` date NOT NULL,
   `password` varchar(300) NOT NULL,
   `status` int(11) NOT NULL DEFAULT 1
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) 
 
 -- --------------------------------------------------------
 -- Generic Test Data for Team Testing
