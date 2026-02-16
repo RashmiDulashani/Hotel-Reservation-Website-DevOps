@@ -1,8 +1,6 @@
 # 🏨 Hotel Reservation Website
 
 ![CI](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/ci.yml/badge.svg)
-![Deploy](https://github.com/RashmiDulashani/Hotel-Reservation-Website-DevOps/actions/workflows/deploy.yml/badge.svg)
-
 
 ## 📝 Project Description
 
