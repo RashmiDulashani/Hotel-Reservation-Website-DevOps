@@ -7,6 +7,10 @@
 
 A full-stack Hotel Reservation Web Application built using PHP, MySQL, and modern DevOps practices, designed to simulate a real-world production workflow including Version Control, CI Automation, and Cloud Deployment.
 
+<div align="center">
+  <img src="src/Images/Readme.png" height="50%" width="50%">
+</div>
+
 ## 📌 Project Overview
 
 This project was developed as part of an academic and practical DevOps implementation to demonstrate:
@@ -16,10 +20,6 @@ This project was developed as part of an academic and practical DevOps implement
 - Cloud deployment on Render
 - Full-stack PHP + MySQL architecture
 - Team collaboration using professional workflows
-
-<div align="center">
-  <img src="src/Images/Readme.png" height="50%" width="50%">
-</div>
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
