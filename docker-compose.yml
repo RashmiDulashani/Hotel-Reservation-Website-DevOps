@@ -1,0 +1,27 @@
+services:
+  web:
+    build: .
+    container_name: zenvia-hotel
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: devops_user
+      DB_PASSWORD: devops_pass
+      DB_NAME: devops
+
+  db:
+    image: mysql:5.7
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: devops
+      MYSQL_USER: devops_user
+      MYSQL_PASSWORD: devops_pass
+    volumes:
+      - db-data:/var/lib/mysql
+
+volumes:
+  db-data:

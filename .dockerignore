@@ -1,0 +1,9 @@
+# Ignore version control folders
+.git
+.gitignore
+
+# Ignore local environment files
+.env
+
+# Documentation
+README.md
