@@ -1,9 +1,9 @@
 <?php
 
-$hname = "localhost";
-$uname = "root";
-$pwd = "";
-$db = "devops";
+$hname = getenv("DB_HOST");
+$uname = getenv("DB_USER");
+$pwd   = getenv("DB_PASSWORD");
+$db    = getenv("DB_NAME");
 
 $con = mysqli_connect($hname, $uname, $pwd, $db);
 
