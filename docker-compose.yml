@@ -11,6 +11,11 @@ services:
       DB_USER: devops_user
       DB_PASSWORD: devops_pass
       DB_NAME: devops
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"     # Limit CPU usage to 50%
+          memory: 512M    # Limit memory usage to 512MB
 
   db:
     image: mysql:5.7
@@ -22,6 +27,11 @@ services:
       MYSQL_PASSWORD: devops_pass
     volumes:
       - db-data:/var/lib/mysql
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"    # Limit CPU usage to 100%
+          memory: 1G     # Limit memory usage to 1GB
 
 volumes:
   db-data:
